@@ -30,8 +30,8 @@ class _main_chatState extends State<main_chat> {
             Expanded(
               child: TabBarView(
                 children: <Widget>[
-                  main_general_chat(),
-                  main_personal_chat(),
+                  MainGeneralChat(),
+                  MainPersonalChat(),
                   main_group_chat(),
                   main_others_group(),
                 ],
