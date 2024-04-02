@@ -1,9 +1,10 @@
+import 'package:e_shopping_168/models/product_data_model.dart';
 import 'package:flutter/material.dart';
 
-import '../../../Tab/Shop/Data/Phone/Xiaomi_data.dart';
+// import '../../../Tab/Shop/Data/Phone/xiaomi_data.dart';
 
 class XiaomiDetailsPage extends StatelessWidget {
-  final XiaomiProduct_Data phone;
+  final ProductDataModel phone;
 
   const XiaomiDetailsPage({Key? key, required this.phone}) : super(key: key);
 

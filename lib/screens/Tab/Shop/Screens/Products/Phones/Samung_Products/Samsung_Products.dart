@@ -1,8 +1,10 @@
+import 'package:e_shopping_168/models/product_data_model.dart';
 import 'package:e_shopping_168/screens/Service/Detail_Page/Phone/Samsung.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../Data/Phone/Samsung_data.dart';
+import 'package:e_shopping_168/Data/product_data.dart';
+// import '../../../../../../../Data/Phone/samsung_data.dart';
 
 class buildScreen_SamsungProduct_List extends StatefulWidget {
   const buildScreen_SamsungProduct_List({super.key});
@@ -74,9 +76,9 @@ class _buildScreen_SamsungProduct_ListState
           Wrap(
             spacing: 5.0,
             runSpacing: 6.0,
-            children: phones
+            children: samsungPhones
                 .map(
-                  (SamsungProduct_Data phone) => GestureDetector(
+                  (ProductDataModel phone) => GestureDetector(
                     onTap: () => Navigator.push(
                       context,
                       MaterialPageRoute(

@@ -1,8 +1,9 @@
+import 'package:e_shopping_168/models/product_data_model.dart';
 import 'package:flutter/material.dart';
-import '../../../Tab/Shop/Data/TV/samsung-TV_data.dart';
+// import '../../../../Data/TV/samsung-TV_data.dart';
 
 class Samsung_TV_DetailsPage extends StatelessWidget {
-  final SamsungTVProduct_Data SamsungTVs;
+  final ProductDataModel SamsungTVs;
 
   const Samsung_TV_DetailsPage({Key? key, required this.SamsungTVs})
       : super(key: key);

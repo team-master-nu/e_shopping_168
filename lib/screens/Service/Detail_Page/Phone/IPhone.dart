@@ -1,10 +1,10 @@
+import 'package:e_shopping_168/models/product_data_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import '../../../Tab/Shop/Data/Phone/Iphone_data.dart';
 import '../../Customer/buy_product.dart';
 
 class IPhoneDetailsPage extends StatelessWidget {
-  final IPhoneProduct_Data phone;
+  final ProductDataModel phone;
 
   const IPhoneDetailsPage({Key? key, required this.phone}) : super(key: key);
 

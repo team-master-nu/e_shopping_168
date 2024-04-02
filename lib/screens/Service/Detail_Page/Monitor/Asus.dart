@@ -1,8 +1,9 @@
+import 'package:e_shopping_168/models/product_data_model.dart';
 import 'package:flutter/material.dart';
-import '../../../Tab/Shop/Data/Monitor/monitor_asus_data.dart';
+// import '../../../Tab/Shop/Data/Monitor/monitor_asus_data.dart';
 
 class Monitor_AsusDetailsPage extends StatelessWidget {
-  final Monitor_Asus_Product_Data monitor_asus;
+  final ProductDataModel monitor_asus;
 
   const Monitor_AsusDetailsPage({Key? key, required this.monitor_asus})
       : super(key: key);

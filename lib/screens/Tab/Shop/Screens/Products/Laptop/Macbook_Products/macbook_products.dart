@@ -1,8 +1,10 @@
+import 'package:e_shopping_168/models/product_data_model.dart';
 import 'package:e_shopping_168/screens/Service/Detail_Page/Laptop/macbook.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:e_shopping_168/Data/product_data.dart';
 
-import '../../../../Data/Laptop/macbook_data.dart';
+// import '../../../../../../../Data/Laptop/macbook_data.dart';
 
 class buildScreen_Laptop_Macbook_Product_List extends StatefulWidget {
   const buildScreen_Laptop_Macbook_Product_List({super.key});
@@ -76,7 +78,7 @@ class _buildScreen_IphoneProduct_ListState
             runSpacing: 6.0,
             children: macBooks
                 .map(
-                  (MacBookProduct_Data macBooks) => GestureDetector(
+                  (ProductDataModel macBooks) => GestureDetector(
                     onTap: () => Navigator.push(
                       context,
                       MaterialPageRoute(

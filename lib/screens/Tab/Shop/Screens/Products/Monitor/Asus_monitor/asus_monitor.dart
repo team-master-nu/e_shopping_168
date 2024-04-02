@@ -1,7 +1,9 @@
+import 'package:e_shopping_168/models/product_data_model.dart';
 import 'package:e_shopping_168/screens/Service/Detail_Page/Monitor/Asus.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../Data/Monitor/monitor_asus_data.dart';
+import 'package:e_shopping_168/Data/product_data.dart';
+// import '../../../../../../../Data/Monitor/monitor_asus_data.dart';
 
 class buildScreen_Asus_Monitor_Product_List extends StatefulWidget {
   const buildScreen_Asus_Monitor_Product_List({super.key});
@@ -73,9 +75,9 @@ class _buildScreen_Asus_Monirtor_Product_ListState
           Wrap(
             spacing: 12.0,
             runSpacing: 8.0,
-            children: monitor_asus
+            children: monitorAsus
                 .map(
-                  (Monitor_Asus_Product_Data monitor_asus) => GestureDetector(
+                  (ProductDataModel monitor_asus) => GestureDetector(
                     onTap: () => Navigator.push(
                       context,
                       MaterialPageRoute(

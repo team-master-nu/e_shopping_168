@@ -1,8 +1,9 @@
-import 'package:e_shopping_168/screens/Tab/Shop/Data/Phone/Samsung_data.dart';
+import 'package:e_shopping_168/models/product_data_model.dart';
+// import 'package:e_shopping_168/screens/Tab/Shop/Data/Phone/Samsung_data.dart';
 import 'package:flutter/material.dart';
 
 class SamsungDetailsPage extends StatelessWidget {
-  final SamsungProduct_Data phone;
+  final ProductDataModel phone;
 
   const SamsungDetailsPage({Key? key, required this.phone}) : super(key: key);
 

@@ -1,7 +1,9 @@
+import 'package:e_shopping_168/models/product_data_model.dart';
 import 'package:e_shopping_168/screens/Service/Detail_Page/TV/Samsung.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../Data/TV/samsung-TV_data.dart';
+import 'package:e_shopping_168/Data/product_data.dart';
+// import '../../../../../../../Data/TV/samsung-TV_data.dart';
 
 class buildScreen_Samsung_TV_Product_List extends StatefulWidget {
   const buildScreen_Samsung_TV_Product_List({super.key});
@@ -73,8 +75,8 @@ class _buildScreen_Asus_Monirtor_Product_ListState
           Wrap(
             spacing: 8.0,
             runSpacing: 6.0,
-            children: SamsungTVs.map(
-              (SamsungTVProduct_Data SamsungTVs) => GestureDetector(
+            children: samsungTVs.map(
+              (ProductDataModel SamsungTVs) => GestureDetector(
                 onTap: () => Navigator.push(
                   context,
                   MaterialPageRoute(

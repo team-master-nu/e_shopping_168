@@ -1,8 +1,10 @@
+import 'package:e_shopping_168/models/product_data_model.dart';
 import 'package:e_shopping_168/screens/Service/Detail_Page/Phone/Xiaomi.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../Data/Phone/Xiaomi_data.dart';
+import 'package:e_shopping_168/Data/product_data.dart';
+// import '../../../../../../../Data/Phone/xiaomi_data.dart';
 
 class buildScreen_XiaomiProduct_List extends StatefulWidget {
   const buildScreen_XiaomiProduct_List({super.key});
@@ -72,9 +74,9 @@ class _XiaomiProductsState extends State<buildScreen_XiaomiProduct_List> {
           Wrap(
             spacing: 5.0,
             runSpacing: 6.0,
-            children: phones
+            children: xiaomiPhones
                 .map(
-                  (XiaomiProduct_Data phone) => GestureDetector(
+                  (ProductDataModel phone) => GestureDetector(
                     onTap: () => Navigator.push(
                       context,
                       MaterialPageRoute(

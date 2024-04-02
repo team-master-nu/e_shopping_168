@@ -1,9 +1,10 @@
+import 'package:e_shopping_168/models/product_data_model.dart';
 import 'package:flutter/material.dart';
 
-import '../../../Tab/Shop/Data/Laptop/macbook_data.dart';
+// import '../../../Tab/Shop/Data/Laptop/macbook_data.dart';
 
 class Laptop_MacbookDetailsPage extends StatelessWidget {
-  final MacBookProduct_Data macBooks;
+  final ProductDataModel macBooks;
 
   const Laptop_MacbookDetailsPage({Key? key, required this.macBooks})
       : super(key: key);

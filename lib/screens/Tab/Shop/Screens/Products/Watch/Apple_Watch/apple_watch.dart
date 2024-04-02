@@ -1,6 +1,8 @@
+import 'package:e_shopping_168/models/product_data_model.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../Data/Watch/apple-watch_data.dart';
+import 'package:e_shopping_168/Data/product_data.dart';
+// import '../../../../../../../Data/Watch/apple-watch_data.dart';
 
 class buildScreen_Apple_Watch_Product_List extends StatefulWidget {
   const buildScreen_Apple_Watch_Product_List({super.key});
@@ -74,7 +76,7 @@ class _buildScreen_Asus_Monirtor_Product_ListState
             runSpacing: 6.0,
             children: appleWatches
                 .map(
-                  (AppleWatchProduct_Data appleWatches) => GestureDetector(
+                  (ProductDataModel appleWatches) => GestureDetector(
                     onTap: () => print("Product details: ${appleWatches.name}"),
                     child: Container(
                       height: 160,

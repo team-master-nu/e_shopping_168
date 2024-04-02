@@ -1,6 +1,8 @@
+import 'package:e_shopping_168/models/product_data_model.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../Data/TV/lg_data.dart';
+import 'package:e_shopping_168/Data/product_data.dart';
+// import '../../../../../../../Data/TV/lg_data.dart';
 
 class buildScreen_LG_TV_Product_List extends StatefulWidget {
   const buildScreen_LG_TV_Product_List({super.key});
@@ -74,7 +76,7 @@ class _buildScreen_Asus_Monirtor_Product_ListState
             runSpacing: 6.0,
             children: lgTVs
                 .map(
-                  (LgTVProduct_Data lgTVs) => GestureDetector(
+                  (ProductDataModel lgTVs) => GestureDetector(
                     onTap: () => print("Product details: ${lgTVs.name}"),
                     child: Container(
                       width: 170,
