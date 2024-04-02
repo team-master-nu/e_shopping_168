@@ -1,4 +1,5 @@
 # e_shopping_168
+<img width="580" alt="Screenshot 2024-04-02 at 1 51 07 in the afternoon" src="https://github.com/team-master-nu/e_shopping_168/assets/149933218/32866f4a-d888-445c-bb98-126e602f74a2">
 
 A new Flutter project.
 
