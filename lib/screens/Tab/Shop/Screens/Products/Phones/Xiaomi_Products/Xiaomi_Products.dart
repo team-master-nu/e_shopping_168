@@ -3,7 +3,7 @@ import 'package:e_shopping_168/screens/Service/Detail_Page/Phone/Xiaomi.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'package:e_shopping_168/Data/product_data.dart';
+import 'package:e_shopping_168/Data/products_data/xiaomi_phone_data.dart';
 // import '../../../../../../../Data/Phone/xiaomi_data.dart';
 
 class buildScreen_XiaomiProduct_List extends StatefulWidget {

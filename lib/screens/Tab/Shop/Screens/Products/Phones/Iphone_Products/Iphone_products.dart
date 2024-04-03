@@ -3,7 +3,7 @@ import 'package:e_shopping_168/screens/Service/Detail_Page/Phone/IPhone.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'package:e_shopping_168/Data/product_data.dart';
+import 'package:e_shopping_168/Data/products_data/iphone_data.dart';
 // import '../../../../../../../Data/Phone/iphone_data.dart';
 
 class buildScreen_IphoneProduct_List extends StatefulWidget {

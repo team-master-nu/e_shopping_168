@@ -1,7 +1,7 @@
 import 'package:e_shopping_168/models/product_data_model.dart';
 import 'package:flutter/material.dart';
 
-import 'package:e_shopping_168/Data/product_data.dart';
+import 'package:e_shopping_168/Data/products_data/lg_tv_data.dart';
 // import '../../../../../../../Data/TV/lg_data.dart';
 
 class buildScreen_LG_TV_Product_List extends StatefulWidget {

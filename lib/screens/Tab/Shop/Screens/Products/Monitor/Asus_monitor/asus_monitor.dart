@@ -2,7 +2,7 @@ import 'package:e_shopping_168/models/product_data_model.dart';
 import 'package:e_shopping_168/screens/Service/Detail_Page/Monitor/Asus.dart';
 import 'package:flutter/material.dart';
 
-import 'package:e_shopping_168/Data/product_data.dart';
+import 'package:e_shopping_168/Data/products_data/monitor_asus_data.dart';
 // import '../../../../../../../Data/Monitor/monitor_asus_data.dart';
 
 class buildScreen_Asus_Monitor_Product_List extends StatefulWidget {

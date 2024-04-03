@@ -2,7 +2,7 @@ import 'package:e_shopping_168/models/product_data_model.dart';
 import 'package:e_shopping_168/screens/Service/Detail_Page/TV/Samsung.dart';
 import 'package:flutter/material.dart';
 
-import 'package:e_shopping_168/Data/product_data.dart';
+import 'package:e_shopping_168/Data/products_data/samsung_tv_data.dart';
 // import '../../../../../../../Data/TV/samsung-TV_data.dart';
 
 class buildScreen_Samsung_TV_Product_List extends StatefulWidget {
